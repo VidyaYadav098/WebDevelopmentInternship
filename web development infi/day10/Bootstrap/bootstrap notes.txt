@@ -1,0 +1,15 @@
+Bootstrap isa framework developed twitter employees named Mark Otto.
+Bootstrap is a framework used for responsive styling in html css and Js using their predefined libraries.
+It can be used in 2 ways.
+	-goto getbootstrap.com and download a bootstrap file and import it into your html page.
+	-impoet cdn libraries into your html page directly.
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

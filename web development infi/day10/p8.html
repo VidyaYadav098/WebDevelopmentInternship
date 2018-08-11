@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>JQ FILTERING</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("div").eq(0).css("background-color", "yellow"); <!--highlights div according to the index number. eq(0) is first box, eq(1) is the middle one and eq(2) is the last one-->
+		});
+	</script>
+
+	</head>
+	<body>
+		<h1>Welcome to my Homepage</h1>
+		<p>This is a paragraph</p>
+		<div style="border:1px solid black;">
+			<p>A paragraph in a div</p>
+			<p>Another paragraph in a div</p>
+		</div>
+		<br>
+		<div style="border:1px solid black;">
+			<p>A paragraph in another div</p>
+		</div>
+		<br>
+		<div style="border:1px solid black;">
+			<p>A paragraph in another div</p>
+			<p>Another paragraph in another div</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+FUNCTIONS:
+
+Function is a reserved keyword used to perform set of actions in JS.
+There're 2 types of functions in JS:
+	-System functions:
+		System functions are predefined functions in JS.
+			example: document.write, alert, console.log
+			
+	-User defined functions:
+		User defined functions are the ones which users defining their own functions according to their needs.
+	
+Syntax for defining a function:
+	function function_name(parameters)
+	{
+		//web content
+	}
+		
+	1. function: It's a keyword that tells JS that you are defining a function.
+	2. function_name: It's the name of the function which can be defined by any name as per user needs.
+		Steps to define function_name: 1. It must be one word.
+									   2. It must contain only letters, numbers or underscores.(a-z, A-Z,0-9, _)
+									   3. It cannot begin with a number.
+									   4. It cannot be used as any of the reserved keywords.(function, alert, document, javascript etc..)
+									   
+									   
+									   

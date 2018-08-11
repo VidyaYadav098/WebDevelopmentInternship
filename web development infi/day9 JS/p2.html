@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Creating an object using new keyword</title>
+
+</head>
+<body>
+	<p id="demo"></p>
+	<script type="text/JavaScript">
+		var person=new Object();
+		person.firstname="Vidya";
+		person.lastname="Yadav";
+		person.age="21";
+	document.getElementById("demo").innerHTML=person.firstname+"'s "+"age is "+person.age;
+	</script>
+</body>
+</html>	
+<!-- In JS almost everything is an object.
+1. Boolean can be object if it is defined with a new keyword.
+2. Numbers can be objects if defined using new keyword.
+3. Strings can be objects if defined with ew keyword.
+4. Dates are always objects.
+5. Arrays are always objects.
+6. Functions are always objects.
+7. Objects are always objects.-->

@@ -1,0 +1,10 @@
+DOM:
+	With html DOM JS can access and change all the elements of an Html document.
+	JS can change all the html elements in a page.
+	JS can change all the html attributes in a page.
+	JS can change all the css styles in a page.
+	JS can add new html elements and attributes.
+	JS can create new html events in a page.
+	example: document.getElementById 
+			 document.getElementByClassName
+			 document.getElementByTagName

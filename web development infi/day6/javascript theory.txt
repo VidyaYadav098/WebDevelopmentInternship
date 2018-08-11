@@ -1,0 +1,3 @@
+Javascript is a programming language to define responsive web pages. 
+Invented by BRENDAN EICH in 1995.
+Javascript is also called as ECMA Script which is a scripting language by the company called NETSCAPE.

@@ -1,0 +1,49 @@
+<!-- to create a simple table in web page-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MY FAMILY</title>
+	</head>
+	<body>
+		<table border="1"> <!--to create a table with borders-->
+			<tr> <!-- table row-->
+				<th> Sl.no</th> <!--table header: used to give the names to the rows-->
+				<th> Name</th>
+				<th> Age</th>
+				<th> Gender</th>
+				<th>Occupation</th>
+			</tr>
+			<caption>My sweet family</caption> <!-- used to give the visible description of the table, it can be declared anywherein the body-->
+				<tr>
+					<td>1</td> <!--used to add the data to the created table-->
+					<td>Vidya</td>
+					<td>21</td>
+					<td>Female</td>
+					<td rowspan="4">Agriculture</td> <!--include agriculture as occupation for all the 4 rows-->
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Kavya</td>
+					<td>19</td>
+					<td>Female</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Pradeep</td>
+					<td>28</td>
+					<td>Male</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Sowmya</td>
+					<td>16</td>
+					<td>Female</td>
+				</tr>
+				<tr>
+					<td colspan="2">abc</td> <!-- combination of column 1 and column2-->
+					<td colspan="3">xyz</td> <!--combination of 3rd, 4th and 5th columns-->
+				</tr>
+		</table>
+			
+	</body>
+</html>

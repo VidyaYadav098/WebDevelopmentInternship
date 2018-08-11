@@ -1,0 +1,11 @@
+VARIABLES:
+
+Used to define or declare some values in JS.
+Syntax: var variable_name = "value";
+	var: It's a reserved keyword to define the variable.
+	variable_name: Name of the variable where user is defining according to their needs.
+Rules to deifne a variable name:
+	-It must be one word.
+	-It must consist only the letters, numbers and underscores.
+	-It should not begin with a number.
+	-It should not contain any of the reserved keywords.
